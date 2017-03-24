@@ -15,9 +15,11 @@ public class Hola extends AppCompatActivity {
         txt.setText("Otro texto papa");
 
         Button btn1 = (Button) findViewById(R.id.boton1);
+        Button btn2 = (Button) findViewById(R.id.boton2);
 
         MyListener lester = new MyListener();
         btn1.setOnClickListener(lester);
+        btn2.setOnClickListener(lester);
 
     }
 }
